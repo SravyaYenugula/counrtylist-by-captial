@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.capitalApp {
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.capital-container {
+  background-color: #ffffff;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px;
+  width: 96%;
+  max-width: 345px;
+}
+@media screen and (min-width: 786px) {
+  .capital-container {
+    padding-top: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 520px;
+  }
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.qucetion-container {
+  display: flex;
+  align-items: center;
+}
+.capitals-select {
+  background-color: #ffffff;
+  font-family: 'roboto';
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  outline: none;
+}
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.paragraph {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
